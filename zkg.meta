@@ -1,0 +1,20 @@
+[package]
+script_dir = scripts
+test_command = cd testing && btest -c btest.cfg
+summary = TODO: A summary of HelloWorld in one line
+description = TODO: A more detailed description of HelloWorld.
+	It can span multiple lines, with this indentation.
+depends = 
+	zeek >=4.0.0
+
+[template]
+source = package-template
+version = v0.99.0
+zkg_version = 2.12.0
+features = github-ci,license
+
+[template_vars]
+name = HelloWorld
+author = Christian Kreibich <christian@corelight.com>
+license = bsd-3
+
