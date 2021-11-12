@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+#
+dir="$(dirname $0)"
+
+cat | $dir/diff-remove-timestamps \
+    | $dir/diff-remove-abspath

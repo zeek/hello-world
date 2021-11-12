@@ -2,5 +2,5 @@ module HelloWorld;
 
 event zeek_init()
 	{
-	print "Hello world!";
+	Reporter::info("Hello world!");
 	}
