@@ -7,5 +7,5 @@
 #open XXXX-XX-XX-XX-XX-XX
 #fields	ts	level	message	location
 #types	time	enum	string	string
-XXXXXXXXXX.XXXXXX	Reporter::INFO	Hello world!	<...>/main.zeek, line 5
+XXXXXXXXXX.XXXXXX	Reporter::INFO	Hello world! This is v0.1.	<...>/main.zeek, line 5
 #close XXXX-XX-XX-XX-XX-XX
