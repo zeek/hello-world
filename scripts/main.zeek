@@ -2,5 +2,5 @@ module HelloWorld;
 
 event zeek_init()
 	{
-	Reporter::info("Hello world! This is v0.1.");
+	Reporter::info("Hello world! This is v1.0.");
 	}
