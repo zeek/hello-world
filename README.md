@@ -19,8 +19,16 @@ $ zeek hello-world
 
 The package writes a single line to the reporter.log, which Zeek by default also
 prints to stderr. To experiment with version selection, the package also
-provides version `v0.1.0` and a development version on the main branch. The
-reported message indicates which version you've ended up installing.
+provides version `v0.1.0` a development version on the main branch, a branch
+operating correctly (`topic/helloworld/ok`), and one with an intentional test
+failure (`topic/helloworld/broken`). For example, to install the latest version
+on the `main` branch, say:
+
+```
+$ zkg install --version main hello-world
+```
+
+To explore the version you have installed, try `zkg info hello-world`.
 
 To start your own package, don't copy this one! Instead, take a look at the [zkg
 create](https://docs.zeek.org/projects/package-manager/en/stable/zkg.html#create)
